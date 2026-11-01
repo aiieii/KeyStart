@@ -1,16 +1,40 @@
-# React + Vite
+# KeyStart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeyStart helps fresh graduates and young adults find their first home with confidence. With an AI housing assistant to answer questions at any time and our Smart Budget Planner to keep track of finances, KeyStart makes it easier to choose a home that fits your budget.
 
-Currently, two official plugins are available:
+The website was created during the DDAS AI Bootcamp Hackathon in June 2026, where our team secured **3rd place**. At the bootcamp, we learned AI prompting strategies and how LLMs work. I applied that knowledge to build this website with my team, using Antigravity as an AI-assisted development tool.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Demo
 
-## React Compiler
+Watch the short demo: https://youtu.be/nJlxgqMyorE
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Smart Budget Planner:** suggests listings based on your budget and preferences.
+- **AI Housing Assistant:** answers housing-related questions using the Gemini API.
+- **Housing Dashboard:** browse and compare listings within your budget and preferences. Each listing links to its PropertyGuru page.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## My Role
+
+I built the website with the help of Antigravity, and my teammate built the feature that lets users compare listings from PropertyGuru.
+
+## Tech Stack
+
+React, Vite, JavaScript, Google Gemini API
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/aiieii/KeyStart.git
+   cd KeyStart
+   ```
+2. Copy `.env.example` to `.env` and add your own Gemini API key:
+   ```
+   VITE_GEMINI_API_KEY=your_key_here
+   ```
+3. Install and run:
+   ```
+   npm install
+   npm run dev
+   ```
