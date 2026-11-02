@@ -2,7 +2,7 @@
 
 KeyStart helps fresh graduates and young adults find their first home with confidence. With an AI housing assistant to answer questions at any time and our Smart Budget Planner to keep track of finances, KeyStart makes it easier to choose a home that fits your budget.
 
-The website was created during the DDAS AI Bootcamp Hackathon in June 2026, where our team secured **3rd place**. At the bootcamp, we learned AI prompting strategies and how LLMs work. I applied that knowledge to build this website with my team, using Antigravity as an AI-assisted development tool.
+The website was created during the DDAS AI Bootcamp Hackathon in June 2026, where my team and I secured **3rd place**. At the bootcamp, we learned AI prompting strategies and how LLMs work. As the team leader, I applied that knowledge to build this website alongside my team, using Antigravity as an AI-assisted development tool.
 
 ## Demo
 
